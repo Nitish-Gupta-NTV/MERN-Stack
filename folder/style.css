@@ -1,17 +1,22 @@
 .main{
     display: flex;
     /* flex-direction:column-reverse ; */
-    justify-content:end;
+   
     justify-content: space-evenly;
+    border: 2px solid black;
+    align-items: last baseline;
+
+    
+
     
 }
 .card1{
-    height: 200px;
+    height: 20px;
     width:200px;
     background-color: red;
 }
 .card3{
-    height: 200px;
+    height: 500px;
     width:200px;
     background-color: yellow;
 }
